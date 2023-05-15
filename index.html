@@ -13,12 +13,16 @@
 <body>
     
     <main>
-        <h1>Calcolo del prezzo del biglietto del treno</h1>
-        <h4>Inserire il numero di km da percorrere</h4>
-        <input type="text" id="km">
-        <h4>Inserire l'età del passeggero</h4>
-        <input type="text" id="age">
-        <p><button>Send-it!</button></p>
+        <form action="/action_page.php">
+            <h1>Calcolo del prezzo del biglietto del treno</h1>
+            <label for="km">Inserire il numero di km da percorrere:</label><br>
+            <input type="text" name="km" id="km"><br>
+            <label for="age">Inserire l'età del passeggero:</label><br>
+            <input type="text" name="age" id="age"><br>
+            <p><button>Calcola</button></p>
+        </form>
+        <p id="result"></p>
     </main>
+
 </body>
 </html>
