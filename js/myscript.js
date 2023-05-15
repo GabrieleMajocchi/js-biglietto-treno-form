@@ -14,7 +14,6 @@ Sendit.addEventListener('click',
         } else {
             TicketPrice = km.value * 0.21
         }
-        TicketPrice = TicketPrice.toFixed(2);
         console.log(TicketPrice+"€")
     }
 )
